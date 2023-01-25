@@ -16,6 +16,7 @@
 
   --colour-primary-100: hsl(30, 38%, 92%);
   --colour-primary-500: hsl(158, 36%, 37%);
+  --colour-primary-800: hsl(158, 42%, 18%);
 
   --colour-bg: var(--colour-primary-100);
   --colour-copy: var(--colour-neutral-500);
