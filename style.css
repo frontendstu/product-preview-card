@@ -125,3 +125,14 @@ body {
 s {
   font-size: 0.8125rem;
 }
+
+/********************************************
+ * PRODUCT CARD
+ *******************************************/
+
+.product-card {
+  width: var(--product-card-width);
+  max-width: var(--product-card-max-width);
+  margin-inline: auto;
+  border-radius: var(--product-card-radius);
+}
