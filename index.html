@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title></title>
+    <title>Frontend Mentor &vert; Product preview card component</title>
 
     <link
       rel="shortcut icon"
@@ -15,6 +15,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main>
+      <article class="product-card">
+        <div class="product-img">
+          <picture>
+            <source
+              srcset="images/image-product-desktop.jpg"
+              media="(min-width: 1024px)"
+            />
+
+            <img
+              src="images/image-product-mobile.jpg"
+              alt=""
+              aria-hidden="true"
+            />
+          </picture>
+        </div>
+      </article>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
