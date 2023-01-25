@@ -116,3 +116,7 @@ body {
   background-color: var(--colour-bg);
   font-family: var(--font-family-primary);
 }
+
+s {
+  font-size: 0.8125rem;
+}
