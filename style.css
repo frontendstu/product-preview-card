@@ -187,6 +187,14 @@ s {
   border-top-left-radius: var(--product-card-radius);
 }
 
+@media (min-width: 1024px) {
+  .product-img img {
+    border-top-left-radius: var(--product-card-radius);
+    border-bottom-left-radius: var(--product-card-radius);
+    border-top-right-radius: 0;
+  }
+}
+
 /* Product Details
  *******************************************/
 .product-details {
