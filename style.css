@@ -23,6 +23,9 @@
   --colour-price: var(--colour-primary-500);
   --colour-btn: var(--colour-neutral-100);
 
+  /***** Border *****/
+  --border-radius: 10px;
+
   /***** Typography *****/
   --leading-copy: 23px;
   --leading-heading: 32px;
