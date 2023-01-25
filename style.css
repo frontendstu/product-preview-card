@@ -78,6 +78,7 @@
   --product-btn-margin-top: 1.25rem;
   --product-btn-radius: 8px;
   --product-btn-bg: var(--colour-primary-500);
+  --product-btn-bg-active: var(--colour-primary-800);
 }
 
 /********************************************
