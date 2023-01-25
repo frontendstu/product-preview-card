@@ -74,6 +74,12 @@
   --product-details-padding: 1.5rem;
   --product-details-bg: var(--colour-neutral-100);
 
+  --product-price-original-margin-left: 1.75rem;
+  --product-price-original-colour: var(--colour-copy);
+  --product-price-original-font-weight: var(--font-weight-copy);
+  --product-price-original-font-size: 0.8125rem;
+  --product-price-original-font-family: var(--font-family-copy);
+
   --product-btn-padding: 0.9375rem;
   --product-btn-margin-top: 1.25rem;
   --product-btn-radius: 8px;
@@ -203,6 +209,25 @@ s {
 
 .product-details p {
   margin-top: 1.0625rem;
+}
+
+/* Product Price
+ *******************************************/
+.product-price {
+  color: var(--colour-price);
+  line-height: var(--leading-price);
+  font-weight: var(--font-weight-price);
+  font-size: var(--font-size-price);
+  font-family: var(--font-family-price);
+}
+
+.product-price s {
+  margin-left: var(--product-price-original-margin-left);
+  color: var(--product-price-original-colour);
+  vertical-align: middle;
+  font-weight: var(--product-price-original-font-weight);
+  font-size: 0.8125rem;
+  font-family: var(--product-price-original-font-family);
 }
 
 /* Product Button
