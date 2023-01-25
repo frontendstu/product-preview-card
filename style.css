@@ -190,13 +190,13 @@ s {
   margin-top: 1.0625rem;
 }
 
-/* Cart Button
+/* Product Button
  *******************************************/
 
-.cart-btn {
+.product-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1.25rem;
   padding-block: 0.9375rem;
+  margin-top: 1.25rem;
 }
