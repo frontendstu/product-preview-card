@@ -85,6 +85,7 @@
   --product-btn-radius: 8px;
   --product-btn-bg: var(--colour-primary-500);
   --product-btn-bg-active: var(--colour-primary-800);
+  --product-btn-icon-margin-right: 0.75rem;
 }
 
 /********************************************
@@ -252,4 +253,8 @@ s {
 .product-btn:hover,
 .product-btn:focus-within {
   background-color: var(--colour-primary-800);
+}
+
+.product-btn img {
+  margin-right: var(--product-btn-icon-margin-right);
 }
