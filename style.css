@@ -125,6 +125,15 @@ body {
   font-family: var(--font-family-primary);
 }
 
+h1 {
+  color: var(--colour-heading);
+  line-height: var(--leading-heading);
+  letter-spacing: var(--tracking-heading);
+  font-weight: var(--font-weight-heading);
+  font-size: var(--font-size-heading);
+  font-family: var(--font-family-heading);
+}
+
 s {
   font-size: 0.8125rem;
 }
