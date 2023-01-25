@@ -215,3 +215,8 @@ s {
   font-size: var(--font-size-btn);
   text-decoration: none;
 }
+
+.product-btn:hover,
+.product-btn:focus-within {
+  background-color: var(--colour-primary-800);
+}
