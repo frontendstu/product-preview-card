@@ -9,6 +9,19 @@
  *******************************************/
 
 :root {
+  /***** Colours *****/
+  --colour-neutral-100: hsl(0, 0%, 100%);
+  --colour-neutral-500: hsl(228, 12%, 48%);
+  --colour-neutral-900: hsl(212, 21%, 14%);
+
+  --colour-primary-100: hsl(30, 38%, 92%);
+  --colour-primary-500: hsl(158, 36%, 37%);
+
+  --colour-bg: var(--colour-primary-100);
+  --colour-copy: var(--colour-neutral-500);
+  --colour-heading: var(--colour-neutral-900);
+  --colour-price: var(--colour-primary-500);
+  --colour-btn: var(--colour-neutral-100);
 }
 
 /********************************************
