@@ -67,7 +67,7 @@
   --font-family-btn: var(--font-family-copy);
 
   /***** Product Card *****/
-  --product-card-width: 21.4375rem;
+  --product-card-width-mobile: 21.4375rem;
   --product-card-width-desktop: 37.5rem;
   --product-card-radius: var(--border-radius);
 
@@ -159,7 +159,7 @@ s {
  *******************************************/
 
 .product-card {
-  width: var(--product-card-width);
+  width: var(--product-card-width-mobile);
   max-width: var(--product-card-max-width);
   margin-inline: auto;
   border-radius: var(--product-card-radius);
