@@ -212,6 +212,22 @@ s {
   margin-top: 1.0625rem;
 }
 
+@media (min-width: 1024px) {
+  .product-details {
+    border-top-right-radius: var(--product-card-radius);
+    border-bottom-right-radius: var(--product-card-radius);
+    border-bottom-left-radius: 0;
+  }
+
+  .product-details h1 {
+    margin-top: 1.25rem;
+  }
+
+  .product-details p {
+    margin-top: 1.5rem;
+  }
+}
+
 /* Product Price
  *******************************************/
 .product-price {
