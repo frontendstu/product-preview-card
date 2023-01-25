@@ -72,6 +72,11 @@
 
   --product-details-padding: 1.5rem;
   --product-details-bg: var(--colour-neutral-100);
+
+  --product-btn-padding: 0.9375rem;
+  --product-btn-margin-top: 1.25rem;
+  --product-btn-radius: 8px;
+  --product-btn-bg: var(--colour-primary-500);
 }
 
 /********************************************
@@ -197,6 +202,14 @@ s {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-block: 0.9375rem;
-  margin-top: 1.25rem;
+  padding-block: var(--product-btn-padding);
+  margin-top: var(--product-btn-margin-top);
+  border-radius: var(--product-btn-radius);
+  transition: var(--transition);
+  transition-property: background-color;
+  background-color: var(--product-btn-bg);
+  color: var(--colour-neutral-100);
+  line-height: var(--leading-btn);
+  font-size: var(--font-size-btn);
+  text-decoration: none;
 }
