@@ -22,6 +22,40 @@
   --colour-heading: var(--colour-neutral-900);
   --colour-price: var(--colour-primary-500);
   --colour-btn: var(--colour-neutral-100);
+
+  /***** Typography *****/
+  --leading-copy: 23px;
+  --leading-heading: 32px;
+  --leading-price: var(--leading-heading);
+  --leading-cat: 15px;
+  --leading-btn: 18px;
+
+  --tracking-copy: 0;
+  --tracking-heading: 0;
+  --tracking-price: 0;
+  --tracking-cat: 5px;
+  --tracking-btn: 0;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --font-weight-copy: var(--font-weight-medium);
+  --font-weight-heading: var(--font-weight-bold);
+  --font-weight-price: var(--font-weight-heading);
+  --font-weight-cat: var(--font-weight-copy);
+  --font-weight-btn: var(--font-weight-bold);
+
+  --font-size-copy: 0.875rem; /* 14px */
+  --font-size-heading: 2rem; /* 32px */
+  --font-size-price: var(--font-size-heading);
+  --font-size-cat: 0.75rem; /* 12px */
+  --font-size-btn: var(--font-size-copy);
+
+  --font-family-copy: 'Montserrat', sans-serif;
+  --font-family-heading: 'Fraunces', serif;
+  --font-family-price: var(--font-family-heading);
+  --font-family-cat: var(--font-family-copy);
+  --font-family-btn: var(--font-family-copy);
 }
 
 /********************************************
