@@ -68,7 +68,7 @@
 
   /***** Product Card *****/
   --product-card-width: 21.4375rem;
-  --product-card-max-width: 28.125rem;
+  --product-card-width-desktop: 37.5rem;
   --product-card-radius: var(--border-radius);
 
   --product-details-padding: 1.5rem;
