@@ -57,8 +57,10 @@
   --font-size-cat: 0.75rem; /* 12px */
   --font-size-btn: var(--font-size-copy);
 
-  --font-family-copy: 'Montserrat', sans-serif;
-  --font-family-heading: 'Fraunces', serif;
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-family-secondary: 'Fraunces', serif;
+  --font-family-copy: var(--font-family-primary);
+  --font-family-heading: var(--font-family-secondary);
   --font-family-price: var(--font-family-heading);
   --font-family-cat: var(--font-family-copy);
   --font-family-btn: var(--font-family-copy);
