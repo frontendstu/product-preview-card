@@ -136,3 +136,10 @@ s {
   margin-inline: auto;
   border-radius: var(--product-card-radius);
 }
+
+/* PRODUCT IMAGE
+ *******************************************/
+.product-img img {
+  border-top-right-radius: var(--product-card-radius);
+  border-top-left-radius: var(--product-card-radius);
+}
