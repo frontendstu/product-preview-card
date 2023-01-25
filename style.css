@@ -69,6 +69,9 @@
   --product-card-width: 21.4375rem;
   --product-card-max-width: 28.125rem;
   --product-card-radius: var(--border-radius);
+
+  --product-details-padding: 1.5rem;
+  --product-details-bg: var(--colour-neutral-100);
 }
 
 /********************************************
@@ -142,4 +145,21 @@ s {
 .product-img img {
   border-top-right-radius: var(--product-card-radius);
   border-top-left-radius: var(--product-card-radius);
+}
+
+/* Product Details
+ *******************************************/
+.product-details {
+  padding: var(--product-details-padding);
+  border-bottom-right-radius: var(--product-card-radius);
+  border-bottom-left-radius: var(--product-card-radius);
+  background-color: var(--product-details-bg);
+  color: var(--colour-copy);
+}
+
+.product-details span {
+  line-height: var(--leading-cat);
+  letter-spacing: var(--tracking-cat);
+  text-transform: uppercase;
+  font-size: var(--font-size-cat);
 }
