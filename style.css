@@ -104,3 +104,15 @@ button,
 select {
   font: inherit;
 }
+
+/********************************************
+ * GLOBALS
+ *******************************************/
+
+html,
+body {
+  display: grid;
+  place-content: center;
+  background-color: var(--colour-bg);
+  font-family: var(--font-family-primary);
+}
