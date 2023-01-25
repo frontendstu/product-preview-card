@@ -181,3 +181,11 @@ s {
   text-transform: uppercase;
   font-size: var(--font-size-cat);
 }
+
+.product-details h1 {
+  margin-top: 0.75rem;
+}
+
+.product-details p {
+  margin-top: 1.0625rem;
+}
