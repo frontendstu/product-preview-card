@@ -134,6 +134,15 @@ h1 {
   font-family: var(--font-family-heading);
 }
 
+p {
+  color: var(--colour-copy);
+  line-height: var(--leading-copy);
+  letter-spacing: var(--tracking-copy);
+  font-weight: var(--font-weight-copy);
+  font-size: var(--font-size-copy);
+  font-family: var(--font-family-copy);
+}
+
 s {
   font-size: 0.8125rem;
 }
