@@ -64,6 +64,11 @@
   --font-family-price: var(--font-family-heading);
   --font-family-cat: var(--font-family-copy);
   --font-family-btn: var(--font-family-copy);
+
+  /***** Product Card *****/
+  --product-card-width: 21.4375rem;
+  --product-card-max-width: 28.125rem;
+  --product-card-radius: var(--border-radius);
 }
 
 /********************************************
