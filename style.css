@@ -276,6 +276,7 @@ s {
   background-color: var(--product-btn-bg);
   color: var(--colour-neutral-100);
   line-height: var(--leading-btn);
+  font-weight: var(--font-weight-btn);
   font-size: var(--font-size-btn);
   text-decoration: none;
 }
