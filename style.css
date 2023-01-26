@@ -255,6 +255,12 @@ s {
   font-family: var(--product-price-original-font-family);
 }
 
+@media (min-width: 1024px) {
+  .product-price {
+    margin-top: 1.8125rem !important; /* Naughty, naughty */
+  }
+}
+
 /* Product Button
  *******************************************/
 
