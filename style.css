@@ -198,6 +198,9 @@ s {
 /* Product Details
  *******************************************/
 .product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: var(--product-details-padding);
   border-bottom-right-radius: var(--product-card-radius);
   border-bottom-left-radius: var(--product-card-radius);
